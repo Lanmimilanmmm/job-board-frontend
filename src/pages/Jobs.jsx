@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const API = 'http://localhost:8000'
+const API = 'https://job-board-api-production-1566.up.railway.app'
 
 export default function Jobs({ token }) {
   const [jobs, setJobs] = useState([])

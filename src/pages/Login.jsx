@@ -2,7 +2,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
-const API = 'http://localhost:8000'
+const API = 'https://job-board-api-production-1566.up.railway.app'
 
 export default function Login({ setToken }) {
   const [email, setEmail] = useState('')
